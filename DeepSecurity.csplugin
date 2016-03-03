@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<RoleModule 
+  xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition"
+  namespace="DeepSecurity">
+  <Startup>
+    <Task commandLine="install.cmd" executionContext="elevated" taskType="simple" />
+  </Startup>
+  <ConfigurationSettings>
+    <Setting name="ManagerUrl" />
+    <Setting name="TenantId" />
+    <Setting name="TenantPassword" />
+    <Setting name="PolicyName" />
+    <Setting name="GroupName" />
+    <Setting name="Description" />
+  </ConfigurationSettings>
+  <Endpoints>
+  </Endpoints>
+  <Certificates>
+  </Certificates>
+</RoleModule>
