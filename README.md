@@ -66,9 +66,9 @@ DeepSecurity.ManagerUrl/DeepSecurity.TenantId/DeepSecurity.TenantPasswordなど�
 ## プラグイン設定の方法
 
 | 設定項目 | 説明 | 設定例 |
-| ------------- |:-------------:|
+| ------------- |-------------|-------------|
 | DeepSecurity.ManagerUrl| Deep SecurityのマネージャーURL | dsm://agents.deepsecurity.trendmicro.com:443/ |
-| DeepSecurity.TenantId   | dsmに登録する際に用いるTenantId | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX |
+| DeepSecurity.TenantId | dsmに登録する際に用いるTenantId | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX |
 | DeepSecurity.TenantPassword | dsmに登録する際に用いるTenantPassword | XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX |
 | DeepSecurity.PolicyName | 適用するポリシー名 | Windows |
 | DeepSecurity.GroupName | マネージャーのグループ名、無い場合は自動で作られます | Azure cloud Service Production |
